@@ -30,7 +30,7 @@
       "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
       "guest_os_type": "Ubuntu_64",
       "http_directory": "http",
-      "iso_checksum": "7c6e52397ce6b33c303e7bf6e3df475ceb92b8b9",
+      "iso_checksum": "e7dcdafa411a348ce0048e9ed7d86c0f9a8edefc",
       "iso_checksum_type": "sha1",
       "iso_url": "{{user `mirror`}}//natty/ubuntu-11.04-server-amd64.iso",
       "output_directory": "packer-ubuntu-11.04-amd64-virtualbox",
