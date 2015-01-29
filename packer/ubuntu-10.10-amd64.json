@@ -136,7 +136,7 @@
       "http_directory": "http",
       "iso_checksum": "7c6e52397ce6b33c303e7bf6e3df475ceb92b8b9",
       "iso_checksum_type": "sha1",
-      "iso_url": "{{user `mirror`}}/10.10.4/ubuntu-10.10.4-server-amd64.iso",
+      "iso_url": "{{user `mirror`}}/10.10.4/ubuntu-10.10-server-amd64.iso",
       "output_directory": "packer-ubuntu-10.10-amd64-parallels",
       "shutdown_command": "echo 'vagrant'|sudo -S shutdown -P now",
       "ssh_password": "vagrant",
@@ -165,7 +165,7 @@
   ],
   "post-processors": [
     {
-      "output": "../builds/{{.Provider}}/opscode_ubuntu-10.10_chef-{{user `chef_version`}}.box",
+      "output": "../builds/{{.Provider}}/kusarebento_ubuntu-10.10_chef-{{user `chef_version`}}.box",
       "type": "vagrant"
     }
   ],
